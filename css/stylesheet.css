@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(256,256,10,0.1);
+    font-family: "Roboto Thin", "arial", "sans-serif";
+    font-variant: small-caps;
+    font-size: 16px;
+}
+
+header{
+    background-color: rgb(253, 249, 215);
+}
+
+nav{
+    display: inline-block;
+    width: 80%;
+    background-color: rgb(255, 224, 73);
+}
+
+header img{
+    width: 10%;
+}
+
+main{
+    background-color: rgba(256,256,10,0.1);
+    font-size: 1rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+
+footer{
+    background-color: rgb(253, 249, 215);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*
+li{
+    list-style-type: none;
+    display: inline;
+    width: 100%;
+    padding: 1rem;
+    text-align: left;
+}
+*/
+
+h1{
+    text-align: left;
+    font-family: "Arial", "sans-serif", "Times New Roman", "serif";
+    color: black;
+}
+
+p{
+    line-height: 1.2rem;
+}
